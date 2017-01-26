@@ -7,11 +7,11 @@ package com.jai.antivirus.symantec;
 //USE, DISCLOSURE OR REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
 //SYMANTEC CORPORATION.
 //The Licensed Software and Documentation are deemed to be commercial computer software as defined
-//in FAR 12.212 and subject to restricted rights as defined in FAR Section 52.227-19 "Commercial 
-//Computer Software - Restricted Rights" and DFARS 227.7202, Rights in "Commercial Computer Software 
+//in FAR 12.212 and subject to restricted rights as defined in FAR Section 52.227-19 "Commercial
+//Computer Software - Restricted Rights" and DFARS 227.7202, Rights in "Commercial Computer Software
 //or Commercial Computer Software Documentation," as applicable, and any successor regulations, whether
 //delivered by Symantec as on premises or hosted services.  Any use, modification, reproduction release,
-//performance, display or disclosure of the Licensed Software and Documentation by the U.S. Government 
+//performance, display or disclosure of the Licensed Software and Documentation by the U.S. Government
 //shall be solely in accordance with the terms of this Agreement.
 //
 //////////////////////////////////////////////////////////////////////////////
@@ -36,7 +36,7 @@ import com.symantec.scanengine.api.ScanException;
 /**
  * The sample code demonstrate how to use the Symantec Protection Engine API. This example demonstrates the use of both file-based scanning and stream
  * based scanning.
- * 
+ *
  */
 
 public class JavaAPICheck {
@@ -62,7 +62,8 @@ public class JavaAPICheck {
 	static String fileForScan = "";
 	static int scanMode = 0;
 	static int streamFileLocal = 0;
-	static String scanServers = "127.0.0.1:1344";
+	//static String scanServers = "127.0.0.1:1344";
+	static String scanServers = "eb2dv-web01:1344";
 	static String setScanPolicy = "";
 	static String scanOutput = null;
 	static String scanFileOriginName = null;

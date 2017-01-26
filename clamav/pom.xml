@@ -7,7 +7,19 @@
 	<name>clamav</name>
 	<description>clamav java api</description>
 
+
+	<dependencies>
+		<dependency>
+			<groupId>fi.solita.clamav</groupId>
+			<artifactId>clamav-client</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+
+	</dependencies>
+
 	<build>
+
+
 
 		<plugins>
 			<plugin>
